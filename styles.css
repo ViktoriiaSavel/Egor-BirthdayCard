@@ -1,0 +1,122 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: #016064;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFA500;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFA500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFA500;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-hbdog {
+    height: 250px;
+}
+
+#gift-img-fun {
+    height: 200px;
+}
+
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/happy_bunny.gif");
+}
+
+#gift-img-sad:hover {
+    background-image: url("images/imissyou.gif");
+}
+
+#gift-img-smile:hover {
+    background-image: url("images/smile.gif");
+}
+
+#gift-img-laugh:hover {
+    background-image: url("images/laugh.gif");
+}
+
+#gift-img-eat:hover {
+    background-image: url("images/eat.gif");
+}
+
+#gift-img-wait:hover {
+    background-image: url("images/waiting1.gif");
+}
+
+#gift-img-fun:hover {
+    background-image: url("images/fun.gif");
+}
+
+#gift-img-hbdog:hover {
+    background-image: url("images/hbdog.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
